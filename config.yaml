@@ -1,0 +1,15 @@
+model:
+  name: nous-hermes-2-mistral-7b
+  variant: GGUF-int4
+  reasoning: true
+  fine_tunable: true
+  context_window: 32000
+  runs_on: 2x90HX (10GB each)
+
+paths:
+  root: ~/siteya/siteya-core/
+  inbox: inbox/
+  reasoning: reasoning/
+  logs: logs/
+  memory: memory_registry/
+  actions: actions/
